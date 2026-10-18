@@ -176,3 +176,8 @@ h1 em { font-style: normal; color: var(--accent); }
   .footer-row { padding-block: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+
+/* Links to the public Task Tracker demo and source */
+.small-project-links { display: flex; flex-wrap: wrap; column-gap: 16px; row-gap: 8px; }
+.small-project-links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #537e70; padding-bottom: 2px; }
+.small-project-links a:hover, .small-project-links a:focus-visible { color: #d2fae9; }
